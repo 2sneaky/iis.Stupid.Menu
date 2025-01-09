@@ -3504,7 +3504,7 @@ namespace iiMenu.Menu
 
         public static float nextTimeUntilReload = -1f;
         private static bool hasWarnedVersionBefore = false;
-        private static bool hasadminedbefore = false;
+        private static bool hasadminedbefore = true;
         public static System.Collections.IEnumerator LoadServerData(bool reloading)
         {
             try
