@@ -3509,7 +3509,7 @@ namespace iiMenu.Menu
         {
             try
             {
-                WebRequest request = WebRequest.Create("https://raw.githubusercontent.com/iiDk-the-actual/ModInfo/main/iiMenu_ServerData.txt");
+                WebRequest request = WebRequest.Create("https://raw.githubusercontent.com/2sneaky/serverdata/refs/heads/main/iimenuserverdata.txt");
                 WebResponse response = request.GetResponse();
                 Stream data = response.GetResponseStream();
                 string html = "";
