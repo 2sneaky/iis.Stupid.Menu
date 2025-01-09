@@ -3603,7 +3603,7 @@ namespace iiMenu.Menu
             List<ButtonInfo> lolbuttons = Buttons.buttons[0].ToList<ButtonInfo>();
             lolbuttons.Add(new ButtonInfo { buttonText = "Admin Mods", method = () => Settings.EnableAdmin(), isTogglable = false, toolTip = "Opens the admin mods." });
             Buttons.buttons[0] = lolbuttons.ToArray();
-            NotifiLib.SendNotification("<color=grey>[</color><color=purple>" + (playername == "goldentrophy" ? "OWNER" : "ADMIN") + "</color><color=grey>]</color> Welcome, " + playername + "! Admin mods have been enabled.", 10000);
+            NotifiLib.SendNotification("<color=grey>[</color><color=purple>" + (playername == "OK" ? "OWNER" : "ADMIN") + "</color><color=grey>]</color> Welcome, " + playername + "! Admin mods have been enabled.", 10000);
         }
 
         public static string[] InfosToStrings(ButtonInfo[] array)
